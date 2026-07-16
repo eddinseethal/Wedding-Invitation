@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ─── META & SEO ─────────────────────────────────────── -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>Eddin Sheen ❤️ Dr. Seethal Koshy | Wedding Invitation · 7 September 2026</title>
+  <meta name="description" content="Join us as Eddin Sheen and Dr. Seethal Koshy celebrate their wedding on Monday, 7 September 2026. Ceremony at St. Mary's Syro-Malabar Church, Karakkattukunnu, Mekkad and Reception at Ann's Villa, Champanoor." />
+  <meta name="keywords" content="Eddin Sheen, Dr. Seethal Koshy, wedding invitation, September 2026, St Mary's Church Mekkad, Ann's Villa Champanoor" />
+  <meta name="author" content="Eddin Sheen & Dr. Seethal Koshy" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- ─── OPEN GRAPH (WhatsApp / Facebook) ─────────────── -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="Eddin Sheen ❤️ Dr. Seethal Koshy | Wedding Invitation" />
+  <meta property="og:description" content="We joyfully invite you to celebrate our wedding on 7 September 2026." />
+  <meta property="og:image"       content="images/groom6.jpg" />
+  <meta property="og:url"         content="" />
+  <meta property="og:locale"      content="en_IN" />
+
+  <!-- ─── TWITTER CARD ─────────────────────────────────── -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Eddin Sheen ❤️ Dr. Seethal Koshy | Wedding Invitation" />
+  <meta name="twitter:description" content="We joyfully invite you to celebrate our wedding on 7 September 2026." />
+  <meta name="twitter:image"       content="images/groom6.jpg" />
+
+  <!-- ─── FAVICON ──────────────────────────────────────── -->
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💍</text></svg>" />
+
+  <!-- ─── FONTS ─────────────────────────────────────────── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ─── CSS ──────────────────────────────────────────── -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  PRELOADER                                              -->
+<!-- ════════════════════════════════════════════════════════ -->
+<div id="preloader" role="status" aria-label="Loading">
+  <div class="preloader-rings">
+    <div class="ring"></div>
+    <div class="ring"></div>
+  </div>
+  <p class="preloader-text">Eddin &amp; Seethal</p>
+  <p class="preloader-sub">Loading Our Story…</p>
+  <button id="open-invitation-btn" class="open-btn" style="display: none;">Open Invitation ✉️</button>
+</div>
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  FLOATING UI ELEMENTS                                   -->
+<!-- ════════════════════════════════════════════════════════ -->
+<!-- Scroll Progress Bar -->
+<div id="scroll-progress" role="progressbar" aria-label="Scroll progress"></div>
+
+<!-- Custom Cursor -->
+<div id="cursor-dot"  aria-hidden="true"></div>
+<div id="cursor-ring" aria-hidden="true"></div>
+
+<!-- Floating Hearts -->
+<div class="heart-container" aria-hidden="true"></div>
+
+
+<!-- Save the Date Badge -->
+<div class="save-date-badge" aria-label="Save the Date – September 7">
+  <span>Save the</span>
+  <span>Date<br/>Sep 7</span>
+</div>
+
+<!-- Back to Top -->
+<button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+<!-- Mobile Navigation Overlay -->
+<nav id="mobile-overlay" class="nav-mobile-overlay" aria-label="Mobile navigation">
+  <button id="mobile-close" class="nav-mobile-close" aria-label="Close menu">✕</button>
+  <a href="#home">Home</a>
+  <a href="#couple">Couple</a>
+  <a href="#events">Events</a>
+  <a href="#wedding-theme-section">Theme</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#location">Location</a>
+</nav>
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  NAVIGATION                                             -->
+<!-- ════════════════════════════════════════════════════════ -->
+<header id="navbar" role="banner">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo" aria-label="Home">E &amp; S</a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#couple">Couple</a>
+      <a href="#events">Events</a>
+      <a href="#wedding-theme-section">Theme</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#location">Location</a>
+    </nav>
+
+    <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  HERO SECTION                                           -->
+<!-- ════════════════════════════════════════════════════════ -->
+<section id="home" aria-label="Wedding invitation hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <canvas id="particles-canvas" aria-hidden="true"></canvas>
+
+  <div class="hero-content">
+    <p class="hero-tagline">Together with our families</p>
+
+    <h1 class="hero-names">
+      Eddin Sheen
+      <span class="hero-ampersand">&amp;</span>
+      Dr. Seethal Koshy
+    </h1>
+
+    <p class="hero-invite">We joyfully invite you to celebrate our wedding</p>
+
+    <div class="hero-details-container">
+      <div class="hero-date-box" aria-label="Wedding date: 7 September, Monday">
+        <span class="hero-date-num">07</span>
+        <span class="hero-date-month">September · 2026</span>
+        <span class="hero-date-day">Monday</span>
+      </div>
+
+      <div class="hero-venue-box">
+        <span class="hero-venue-church">St. Mary's Church, Mekkad</span>
+        <span class="hero-venue-and">&amp;</span>
+        <span class="hero-venue-villa">Ann's Villa, Champanoor</span>
+      </div>
+    </div>
+
+    <!-- Countdown Timer integrated directly into the Hero Section -->
+    <div class="hero-countdown">
+      <div class="countdown-grid" id="cd-grid" aria-live="polite" aria-label="Countdown to wedding day">
+        <div class="countdown-box">
+          <span class="countdown-num" id="cd-days">--</span>
+          <span class="countdown-label">Days</span>
+        </div>
+        <span class="countdown-colon" aria-hidden="true">:</span>
+        <div class="countdown-box">
+          <span class="countdown-num" id="cd-hours">--</span>
+          <span class="countdown-label">Hours</span>
+        </div>
+        <span class="countdown-colon" aria-hidden="true">:</span>
+        <div class="countdown-box">
+          <span class="countdown-num" id="cd-mins">--</span>
+          <span class="countdown-label">Minutes</span>
+        </div>
+        <span class="countdown-colon" aria-hidden="true">:</span>
+        <div class="countdown-box">
+          <span class="countdown-num" id="cd-secs">--</span>
+          <span class="countdown-label">Seconds</span>
+        </div>
+      </div>
+      <p class="countdown-finished" id="cd-finished" role="alert">
+        Our Wedding Day Has Arrived ❤️
+      </p>
+    </div>
+  </div>
+
+  <div class="scroll-indicator" aria-hidden="true">
+    <div class="scroll-mouse"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  COUPLE SECTION                                         -->
+<!-- ════════════════════════════════════════════════════════ -->
+<section id="couple" aria-labelledby="couple-heading">
+  <div class="container">
+    <div style="text-align:center;" data-aos="fade-up">
+      <span class="section-eyebrow">Meet the Couple</span>
+      <h2 class="section-title" id="couple-heading">Two Hearts, One Journey</h2>
+      <div class="section-divider"><span class="section-divider-icon">💍</span></div>
+    </div>
+
+    <div class="couple-grid" style="position:relative;">
+      <!-- Groom -->
+      <article class="couple-card" data-aos="fade-right">
+        <p class="couple-role">✝ The Groom</p>
+        <div class="couple-photo-wrap">
+          <div class="couple-photo-ring">
+            <img
+              class="couple-photo"
+              src="images/groom.jpeg"
+              alt="Eddin Sheen, the groom"
+              loading="eager"
+            />
+          </div>
+        </div>
+        <h3 class="couple-name">Eddin Sheen</h3>
+        <p class="couple-relation">
+          Son of<br/>
+          <strong>Sheen Paul</strong><br/>
+          &amp; <strong>Delphy Sheen</strong>
+        </p>
+      </article>
+
+      <!-- Heart between cards (desktop only) -->
+      <div class="couple-heart" aria-hidden="true">❤️</div>
+
+      <!-- Bride -->
+      <article class="couple-card" data-aos="fade-left">
+        <p class="couple-role">✝ The Bride</p>
+        <div class="couple-photo-wrap">
+          <div class="couple-photo-ring">
+            <img
+              class="couple-photo"
+              src="images/bride2.jpg"
+              alt="Seethal Koshy, the bride"
+              loading="eager"
+            />
+          </div>
+        </div>
+        <h3 class="couple-name">Dr. Seethal Koshy</h3>
+        <p class="couple-relation">
+          Daughter of<br/>
+          <strong>Thomas Koshy</strong><br/>
+          &amp; <strong>Jessy Koshy(Late)</strong>
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  LOVE QUOTE SECTION                                     -->
+<!-- ════════════════════════════════════════════════════════ -->
+<section id="love-quote" aria-label="Bible quote about love">
+  <div class="quote-container" data-aos="zoom-in">
+    <span class="quote-mark" aria-hidden="true">"</span>
+    <blockquote class="quote-text">
+      "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It always protects, always trusts, always hopes, always perseveres."
+    </blockquote>
+    <div class="quote-ornament" aria-hidden="true">✦ ✦ ✦</div>
+    <p class="quote-ref">— 1 Corinthians 13:4–7</p>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  WEDDING EVENTS TIMELINE                                -->
+<!-- ════════════════════════════════════════════════════════ -->
+<section id="events" aria-labelledby="events-heading">
+  <div class="container">
+    <div style="text-align:center;" data-aos="fade-up">
+      <span class="section-eyebrow">Wedding Day</span>
+      <h2 class="section-title" id="events-heading">Our Celebrations</h2>
+      <div class="section-divider"><span class="section-divider-icon">✝</span></div>
+    </div>
+
+    <div class="events-timeline">
+      <!-- Event 1: Ceremony -->
+      <div class="event-item">
+        <div class="event-icon-wrap" aria-hidden="true">⛪</div>
+        <article class="event-card" data-aos="fade-right">
+          <p class="event-label">Event 01</p>
+          <h3 class="event-name">Wedding Ceremony</h3>
+          <div class="event-details">
+            <p><strong>📅 Date:</strong> Monday, 7 September 2026</p>
+            <p><strong>🕞 Time:</strong> 3:30 PM</p>
+            <p><strong>📍 Venue:</strong> St Mary's Church, Mekkad</p>
+          </div>
+          <a
+            href="https://maps.app.goo.gl/S81EEehEZRY1CGNPA"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="event-btn"
+            aria-label="View location of St Mary's Church on Google Maps"
+          >
+            📍 View Location
+          </a>
+        </article>
+      </div>
+
+      <!-- Event 2: Reception -->
+      <div class="event-item">
+        <div class="event-icon-wrap" aria-hidden="true">🎊</div>
+        <article class="event-card" data-aos="fade-left">
+          <p class="event-label">Event 02</p>
+          <h3 class="event-name">Wedding Reception</h3>
+          <div class="event-details">
+            <p><strong>📅 Date:</strong> Monday, 7 September 2026</p>
+            <p><strong>🕡 Time:</strong> 6:30 PM Onwards</p>
+            <p><strong>📍 Venue:</strong> Ann's Villa, Champanoor</p>
+          </div>
+          <a
+            href="https://maps.app.goo.gl/VzyqFsvrToeN3FeJ9"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="event-btn"
+            aria-label="View location of Ann's Villa on Google Maps"
+          >
+            📍 View Location
+          </a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  WEDDING COLOR THEME & DRESS CODE                       -->
+<!-- ════════════════════════════════════════════════════════ -->
+<section id="wedding-theme-section" aria-labelledby="theme-heading">
+  <div class="container">
+    <div class="theme-grid">
+      <!-- Image side -->
+      <div class="theme-image-wrap" data-aos="fade-right">
+        <img src="images/wedding-theme.png" alt="Eddin & Seethal wedding color theme" class="theme-image" />
+      </div>
+      <!-- Info side -->
+      <div class="theme-info" data-aos="fade-left">
+        <span class="section-eyebrow">Dress Code</span>
+        <h2 class="section-title" id="theme-heading">Wedding Color Theme</h2>
+        <div class="section-divider" style="margin: 16px 0;"><span class="section-divider-icon">🌸</span></div>
+        <p class="theme-desc">
+          To create a harmonious and beautiful atmosphere, we kindly request our beloved guests to dress in our wedding color theme.
+        </p>
+        
+        <div class="color-palette-display">
+          <div class="color-swatch-item">
+            <span class="swatch-circle" style="background-color: #D39C98;"></span>
+            <span class="swatch-name">Blush / Dusty Rose</span>
+          </div>
+          <div class="color-swatch-item">
+            <span class="swatch-circle" style="background-color: #8EA37F;"></span>
+            <span class="swatch-name">Sage Green</span>
+          </div>
+          <div class="color-swatch-item">
+            <span class="swatch-circle" style="background-color: #FFFDF9; border: 1px solid rgba(211, 156, 152, 0.3);"></span>
+            <span class="swatch-name">Warm Ivory</span>
+          </div>
+        </div>
+
+        <p class="theme-note">
+          Your presence is our greatest gift, and we look forward to celebrating our special day with you!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  PHOTO GALLERY                                          -->
+<!-- ════════════════════════════════════════════════════════ -->
+<section id="gallery" aria-labelledby="gallery-heading">
+  <div class="container">
+    <div style="text-align:center;" data-aos="fade-up">
+      <span class="section-eyebrow" style="color:var(--gold-light);">Moments Captured</span>
+      <h2 class="section-title light" id="gallery-heading">Our Gallery</h2>
+      <div class="section-divider" style="--gold:rgba(200,162,77,0.4);">
+        <span class="section-divider-icon" style="color:var(--gold-light);">📷</span>
+      </div>
+    </div>
+
+    <div class="gallery-grid" role="list">
+      <!-- Gallery items — first 3 eager-loaded, rest lazy -->
+      <div class="gallery-item" role="listitem" tabindex="0" aria-label="Gallery photo 1">
+        <img src="images/gallery1.jpg" alt="Eddin & Seethal photo 1" loading="eager" />
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gallery-item" role="listitem" tabindex="0" aria-label="Gallery photo 2">
+        <img src="images/gallery2.png" alt="Eddin & Seethal photo 2" loading="eager" />
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gallery-item" role="listitem" tabindex="0" aria-label="Gallery photo 3">
+        <img src="images/gallery3.png" alt="Eddin & Seethal photo 3" loading="eager" />
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gallery-item" role="listitem" tabindex="0" aria-label="Gallery photo 4">
+        <img data-src="images/gallery4.jpg" src="images/gallery4.jpg" alt="Eddin & Seethal photo 4" loading="lazy" />
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gallery-item" role="listitem" tabindex="0" aria-label="Gallery photo 5">
+        <img data-src="images/gallery5.jpg" src="images/gallery5.jpg" alt="Eddin & Seethal photo 5" loading="lazy" />
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gallery-item" role="listitem" tabindex="0" aria-label="Gallery photo 6">
+        <img data-src="images/gallery6.jpg" src="images/gallery6.jpg" alt="Eddin & Seethal photo 6" loading="lazy" />
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gallery-item" role="listitem" tabindex="0" aria-label="Gallery photo 7">
+        <img data-src="images/gallery7.jpeg" src="images/gallery7.jpg" alt="Eddin & Seethal photo 7" loading="lazy" />
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gallery-item" role="listitem" tabindex="0" aria-label="Gallery photo 8">
+        <img data-src="images/gallery8.jpeg" src="images/gallery8.jpg" alt="Eddin & Seethal photo 8" loading="lazy" />
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Photo lightbox">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" id="lb-close" aria-label="Close lightbox">✕</button>
+      <button class="lightbox-prev" id="lb-prev" aria-label="Previous photo">‹</button>
+      <img class="lightbox-img" id="lightbox-img" src="" alt="Gallery image large view" />
+      <button class="lightbox-next" id="lb-next" aria-label="Next photo">›</button>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  BIBLE VERSE SECTION                                    -->
+<!-- ════════════════════════════════════════════════════════ -->
+<section id="bible-verse" aria-label="Bible verse">
+  <div class="container" style="text-align:center;" data-aos="zoom-in">
+    <span class="quote-mark" style="color:rgba(200,162,77,0.2);" aria-hidden="true">"</span>
+    <p class="bible-verse-text">
+      "So they are no longer two, but one flesh. Therefore what God has joined together, let no one separate."
+    </p>
+    <div class="quote-ornament" aria-hidden="true">✦ ✦ ✦</div>
+    <p class="bible-verse-ref">— Matthew 19:6</p>
+  </div>
+</section>
+
+
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  LOCATION SECTION                                       -->
+<!-- ════════════════════════════════════════════════════════ -->
+<section id="location" aria-labelledby="location-heading">
+  <div class="container">
+    <div style="text-align:center;" data-aos="fade-up">
+      <span class="section-eyebrow">Find Us</span>
+      <h2 class="section-title" id="location-heading">Wedding Venues</h2>
+      <div class="section-divider"><span class="section-divider-icon">📍</span></div>
+    </div>
+
+    <div class="location-grid">
+      <!-- Ceremony Venue -->
+      <article class="location-card" data-aos="fade-right">
+        <div class="location-icon" aria-hidden="true">⛪</div>
+        <p class="location-type">Wedding Ceremony</p>
+        <h3 class="location-name">St Mary's Church</h3>
+        <p class="location-address">Mekkad, Kerala</p>
+        <p class="location-address">Monday · 7 September 2026 · 3:30 PM</p>
+        <a
+          href="https://maps.app.goo.gl/S81EEehEZRY1CGNPA"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="location-btn"
+          aria-label="Navigate to St Mary's Church on Google Maps"
+        >
+          🗺️ Navigate
+        </a>
+      </article>
+
+      <!-- Reception Venue -->
+      <article class="location-card" data-aos="fade-left">
+        <div class="location-icon" aria-hidden="true">🎊</div>
+        <p class="location-type">Wedding Reception</p>
+        <h3 class="location-name">Ann's Villa</h3>
+        <p class="location-address">Champanoor, Kerala</p>
+        <p class="location-address">Monday · 7 September 2026 · 6:30 PM Onwards</p>
+        <a
+          href="https://maps.app.goo.gl/VzyqFsvrToeN3FeJ9"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="location-btn"
+          aria-label="Navigate to Ann's Villa on Google Maps"
+        >
+          🗺️ Navigate
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  FAMILY SECTION                                         -->
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  BLESSINGS SECTION                                      -->
+<!-- ════════════════════════════════════════════════════════ -->
+<section id="blessings" aria-label="Request for blessings">
+  <div class="container" data-aos="zoom-in">
+    <p class="blessings-ornament" aria-hidden="true">✦ ✝ ✦</p>
+    <p class="blessings-text">
+      "We request the honour of your gracious presence and blessings as we begin our new journey together."
+    </p>
+    <p class="blessings-ornament" aria-hidden="true">🌸 💍 🌸</p>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  FOOTER                                                 -->
+<!-- ════════════════════════════════════════════════════════ -->
+<footer role="contentinfo">
+  <div class="container">
+    <p class="footer-names">
+      Eddin <span class="footer-heart">❤️</span> Seethal
+    </p>
+    <p class="footer-tagline">Thank you for celebrating our special day with us.</p>
+    <p class="footer-made">Made with ❤️ · 7 September 2026</p>
+  </div>
+</footer>
+
+<!-- ════════════════════════════════════════════════════════ -->
+<!--  MUSIC PLAYER (Fixed Floating)                          -->
+<!-- ════════════════════════════════════════════════════════ -->
+<div class="music-player paused" id="music-player" role="region" aria-label="Wedding music player">
+  <button class="music-btn" id="music-btn" aria-label="Play or pause wedding music">▶</button>
+  <div class="music-info">
+    <p class="music-title">Wedding Melody</p>
+    <p class="music-artist">Eddin &amp; Seethal</p>
+  </div>
+  <div class="music-bars" aria-hidden="true">
+    <div class="music-bar"></div>
+    <div class="music-bar"></div>
+    <div class="music-bar"></div>
+    <div class="music-bar"></div>
+    <div class="music-bar"></div>
+  </div>
+  <audio id="wedding-audio" preload="auto" autoplay loop>
+    <source src="music/wedding.mp3" type="audio/mpeg" />
+  </audio>
+</div>
+
+<!-- ── SCRIPT ─────────────────────────────────────────────── -->
+<script src="js/script.js" defer></script>
+</body>
+</html>
